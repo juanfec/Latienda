@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latienda"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_historicos"
+            android:title="@string/historicos" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_cerrarsesion"
+            android:title="@string/cerrarsesion" />
+    </group>
+
+</menu>
